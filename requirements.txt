@@ -76,7 +76,7 @@ python-vlc==3.0.7110
 pyttsx==1.1
 pyttsx3==2.81
 pytz==2019.3
-PyYAML==3.13
+PyYAML==5.1
 reportlab==3.5.34
 requests==2.23.0
 rerequests==1.0.0b0
