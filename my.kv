@@ -1,0 +1,139 @@
+WindowManager:
+    MainWindow:
+    SkinWindow:
+    EyeWindow:
+    BldsgWindow:
+    WeightWindow:
+    MedWindow:
+    TempWindow:
+
+<MainWindow>:
+    name: "main"
+
+    GridLayout:
+        cols:2
+
+        Button:
+            text: "Pulse Rate"
+            background_normal:  "./pul.jpg"
+            on_release:
+                app.root.current = "skin" 
+                root.manager.transition.direction = "left"
+        Button:
+            text: "Alcohol sensor"
+            background_normal:  "./alc.jpeg"
+            on_release:
+                app.root.current = "eye" 
+                root.manager.transition.direction = "left"
+        Button:
+            text: "Disease Prediction"
+            background_normal:  "./dip.jpg"
+            on_release:
+                app.root.current = "blood" 
+                root.manager.transition.direction = "left"
+        Button:
+            text: "Weight"
+            background_normal:  "./we.png"
+            on_release:
+                app.root.current = "weight" 
+                root.manager.transition.direction = "left"
+        Button:
+            text: "BAsic Medication"
+            background_normal:  "./med.jpg"
+            on_release:
+                app.root.current = "med" 
+                root.manager.transition.direction = "left"
+        Button:
+            text: "Body Temperature"
+            background_normal:  "./bot.jpg"
+            on_release:
+                app.root.current = "temp" 
+                root.manager.transition.direction = "left"
+
+
+<SkinWindow>:
+    name: "skin"
+
+    Button:
+        text: "Pulse Rate"
+        on_release:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
+
+
+<EyeWindow>:
+    name: "eye"
+    Button:
+        text: "Alcohol Sensor"
+        on_release:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
+
+
+<WeightWindow>:
+    name: "weight"
+
+    Button:
+        text: "weight meas"
+        on_release:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
+
+<TempWindow>:
+    name: "temp"
+
+    Button:
+        text: "body temerature"
+        on_release:
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
+        
+<BldsgWindow>:
+    name: "blood"
+
+    GridLayout:
+        cols:1
+        Camera:
+            index: 0
+            id: camera
+            resolution: (640, 480)
+            play: True
+        Button:
+            text: 'Skin_Disease'
+            size_hint_y: None
+            height: '48dp'
+            on_press: root.capskin()
+            on_release:
+                app.root.current = "main"
+                root.manager.transition.direction = "right" 
+        Button:
+            text: 'Eye_Disease'
+            size_hint_y: None
+            height: '48dp'
+            on_press: root.capeye()
+            on_release:
+                app.root.current = "main"
+                root.manager.transition.direction = "right"
+
+        Button:
+            text: 'OCR'
+            size_hint_y: None
+            height: '48dp'
+            on_press: root.captes()
+            on_release:
+                app.root.current = "main"
+                root.manager.transition.direction = "right"
+
+
+
+
+
+<MedWindow>:
+    name: "med"
+    Button:
+        text: "medication"
+        on_press: root.emo()
+        on_release: 
+            app.root.current = "main"
+            root.manager.transition.direction = "right"
+

@@ -1,0 +1,21 @@
+Collecting Twisted
+  Downloading https://files.pythonhosted.org/packages/88/e2/0c21fadf0dff02d145db02f24a6ed2c24993e7242d138babbca41de2f5a2/Twisted-19.10.0-cp36-cp36m-manylinux1_x86_64.whl (3.1MB)
+Collecting PyHamcrest>=1.9.0 (from Twisted)
+  Downloading https://files.pythonhosted.org/packages/ac/6c/a641af18e416e6501c10b03742387176626a1d48196100160df796f36632/PyHamcrest-2.0.0-py3-none-any.whl (51kB)
+Collecting Automat>=0.3.0 (from Twisted)
+  Downloading https://files.pythonhosted.org/packages/dd/83/5f6f3c1a562674d65efc320257bdc0873ec53147835aeef7762fe7585273/Automat-20.2.0-py2.py3-none-any.whl
+Collecting attrs>=17.4.0 (from Twisted)
+  Downloading https://files.pythonhosted.org/packages/a2/db/4313ab3be961f7a763066401fb77f7748373b6094076ae2bda2806988af6/attrs-19.3.0-py2.py3-none-any.whl
+Collecting incremental>=16.10.1 (from Twisted)
+  Using cached https://files.pythonhosted.org/packages/f5/1d/c98a587dc06e107115cf4a58b49de20b19222c83d75335a192052af4c4b7/incremental-17.5.0-py2.py3-none-any.whl
+Collecting hyperlink>=17.1.1 (from Twisted)
+  Using cached https://files.pythonhosted.org/packages/7f/91/e916ca10a2de1cb7101a9b24da546fb90ee14629e23160086cf3361c4fb8/hyperlink-19.0.0-py2.py3-none-any.whl
+Collecting zope.interface>=4.4.2 (from Twisted)
+  Downloading https://files.pythonhosted.org/packages/16/1c/d9e4d1e4eb9777ae675c5ac01290e70012498944d5e743bd2777d1096ad7/zope.interface-4.7.1-cp36-cp36m-manylinux1_x86_64.whl (168kB)
+Collecting constantly>=15.1 (from Twisted)
+  Using cached https://files.pythonhosted.org/packages/b9/65/48c1909d0c0aeae6c10213340ce682db01b48ea900a7d9fce7a7910ff318/constantly-15.1.0-py2.py3-none-any.whl
+Requirement already satisfied: six in ./env/lib/python3.6/site-packages (from Automat>=0.3.0->Twisted)
+Requirement already satisfied: idna>=2.5 in ./env/lib/python3.6/site-packages (from hyperlink>=17.1.1->Twisted)
+Requirement already satisfied: setuptools in ./env/lib/python3.6/site-packages (from zope.interface>=4.4.2->Twisted)
+Installing collected packages: PyHamcrest, attrs, Automat, incremental, hyperlink, zope.interface, constantly, Twisted
+Successfully installed Automat-20.2.0 PyHamcrest-2.0.0 Twisted-19.10.0 attrs-19.3.0 constantly-15.1.0 hyperlink-19.0.0 incremental-17.5.0 zope.interface-4.7.1
