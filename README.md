@@ -13,4 +13,8 @@ then :
 3) pip install -r requirements.txt
 4) python main.py
 
+windows : 
+1) make virtual environent in the same folder and the activate it.
+2) pip install -r requirements.txt
+3) python main.py
 voila!!!
