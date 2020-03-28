@@ -4,6 +4,8 @@ this app will not run as there are no .h5 files in this repo, du to github limit
 * eyed.h5
 * skin_dis_1.h5
 
+Note :  models can be downloaded from here : https://drive.google.com/open?id=1BQ4Vc1WgQUIxD8xHgfMCUAT8H-ku26i4
+
 add this two file after downloading or cloning
 
 then : 
