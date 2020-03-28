@@ -56,7 +56,7 @@ subject = "An email with attachment from Python"
 body = "This is an email with attachment sent from Python"
 sender_email = "anktiw2000@gmail.com"
 receiver_email = "ankit2632000@gmail.com"  
-password = "Fall@25404"
+password = < your password >
 
 
 class MainWindow(Screen):
