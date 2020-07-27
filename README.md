@@ -1,3 +1,6 @@
+# Demo video
+<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>)
+
 # python-kivy-healthapp
 
 this app will not run as there are no .h5 files in this repo, du to github limitation so you need to add them by your own
