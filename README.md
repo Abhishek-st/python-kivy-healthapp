@@ -1,7 +1,7 @@
 # Demo video
 See this video to know the working of the app : 
 <br>
-<img src="https://github.com/Abhishek-st/python-kivy-healthapp/blob/master/demo.mp4" width="50%" />(https://github.com/Abhishek-st/python-kivy-healthapp/blob/master/demo.mp4)
+<img src="https://github.com/Abhishek-st/python-kivy-healthapp/blob/master/Screenshot%20from%202020-07-27%2012-15-45.png" width="50%" />(https://github.com/Abhishek-st/python-kivy-healthapp/blob/master/demo.mp4)
 
 # python-kivy-healthapp
 
