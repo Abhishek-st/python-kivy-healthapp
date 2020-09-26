@@ -92,7 +92,7 @@ SpeechRecognition==3.8.1
 SQLAlchemy==1.2.19
 srsly==1.0.1
 tensorboard==1.14.0
-tensorflow==1.14.0
+tensorflow==1.15.4
 tensorflow-estimator==1.14.0
 termcolor==1.1.0
 thinc==7.0.8
