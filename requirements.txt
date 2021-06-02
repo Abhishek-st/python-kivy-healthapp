@@ -99,7 +99,7 @@ thinc==7.0.8
 tqdm==4.43.0
 Twisted==19.10.0
 uritemplate==3.0.1
-urllib3==1.25.8
+urllib3==1.26.5
 vext==0.7.3
 vext.gi==0.7.0
 wasabi==0.6.0
