@@ -59,7 +59,7 @@ playsound==1.2.2
 plyer==1.4.2
 pocketsphinx==0.1.15
 preshed==2.0.1
-protobuf==3.11.3
+protobuf==3.18.3
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 PyAudio==0.2.11
